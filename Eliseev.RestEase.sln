@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eliseev.RestEase.HttpMessageHendlerDIExample.Client", "Eliseev.RestEase.HttpMessageHendlerDependencyInjection\Eliseev.RestEase.HttpMessageHendlerDIExample.Client.csproj", "{0A868527-26E1-40D1-B341-647F5BF9B6AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eliseev.RestEase.HttpMessageHendlerDIExample.Contracts", "Eliseev.RestEase.HttpMessageHendlerDIExample.Contracts\Eliseev.RestEase.HttpMessageHendlerDIExample.Contracts.csproj", "{B84A462A-C530-444C-859E-7FA53033D2B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eliseev.RestEase.HttpMessageHendlerDIExample.Contracts", "Eliseev.RestEase.HttpMessageHendlerDIExample.Contracts\Eliseev.RestEase.HttpMessageHendlerDIExample.Contracts.csproj", "{B84A462A-C530-444C-859E-7FA53033D2B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eliseev.RestEase.HttpMessageHendlerDIExample.Server", "Eliseev.RestEase.HttpMessageHendlerDIExample.Server\Eliseev.RestEase.HttpMessageHendlerDIExample.Server.csproj", "{06162CB2-FFCE-4C71-A966-65DAB4B70942}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eliseev.RestEase.HttpMessageHendlerDIExample.Server", "Eliseev.RestEase.HttpMessageHendlerDIExample.Server\Eliseev.RestEase.HttpMessageHendlerDIExample.Server.csproj", "{06162CB2-FFCE-4C71-A966-65DAB4B70942}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eliseev.RestEase.HttpMessageHendlerDIExample.Client", "Eliseev.RestEase.HttpMessageHendlerDIExample.Client\Eliseev.RestEase.HttpMessageHendlerDIExample.Client.csproj", "{80D4FC1E-AAF7-4504-872B-0399A75FB455}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0A868527-26E1-40D1-B341-647F5BF9B6AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0A868527-26E1-40D1-B341-647F5BF9B6AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0A868527-26E1-40D1-B341-647F5BF9B6AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0A868527-26E1-40D1-B341-647F5BF9B6AA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B84A462A-C530-444C-859E-7FA53033D2B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B84A462A-C530-444C-859E-7FA53033D2B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B84A462A-C530-444C-859E-7FA53033D2B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{06162CB2-FFCE-4C71-A966-65DAB4B70942}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06162CB2-FFCE-4C71-A966-65DAB4B70942}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06162CB2-FFCE-4C71-A966-65DAB4B70942}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80D4FC1E-AAF7-4504-872B-0399A75FB455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80D4FC1E-AAF7-4504-872B-0399A75FB455}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80D4FC1E-AAF7-4504-872B-0399A75FB455}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80D4FC1E-AAF7-4504-872B-0399A75FB455}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
